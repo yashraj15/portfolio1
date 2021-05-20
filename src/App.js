@@ -9,9 +9,15 @@ import Footer from './components/Footer';
 import resumeData from './resumeData';
 import NavBar from './components/NavBar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+
+
+
 class App extends Component {
+
   render() {
     return (
+      
       <div className="App">
         
         <Header resumeData={resumeData}/>

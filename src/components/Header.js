@@ -3,6 +3,8 @@ import Type from "./Type";
 import NavBar from "./NavBar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
+import ParticleComponent from './ParticleComponent'
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -32,14 +34,21 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
-
+        <Router>
+        <ParticleComponent />
          <div className="row banner">
+         
             <div className="banner-text">
+            
                <h1 className="responsive-headline"> {resumeData.name}.</h1>
+
                <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>
                < Type />
+               
                </h3>
-               <hr/>
+               
+               {/* <hr/> */}
+               
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
@@ -52,13 +61,18 @@ export default class Header extends Component {
                     )
                   }
                </ul>
+
             </div>
+            
          </div>
+
+         </Router>
+         
 
          <p className="scrolldown">
             <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
          </p>
-
+      
       </header>
       </React.Fragment>
     );

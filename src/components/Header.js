@@ -3,7 +3,7 @@ import Type from "./Type";
 import NavBar from "./NavBar";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
-import ParticleComponent from './ParticleComponent'
+import { Particle1 }  from './ParticleComponent';
 
 export default class Header extends Component {
   render() {
@@ -35,7 +35,7 @@ export default class Header extends Component {
             </ul>
          </nav>
         <Router>
-        <ParticleComponent />
+        <Particle1 />
          <div className="row banner">
          
             <div className="banner-text">

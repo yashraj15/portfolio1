@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import Particles from 'react-particles-js';
+
+
+import { Particle2 } from './ParticleComponent'
 export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return (
       <section id="testimonials">
+        <Particle2 />
         <div className="text-container">
           <div className="row">
             <div className="two columns header-col">

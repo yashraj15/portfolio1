@@ -23,12 +23,12 @@ let resumeData = {
         }
       ],
     "aboutme":"A hybrid Engineer with an interest in both worlds",
-    "address":"India",
+    "address":"Chicago",
     "website":"https://yashraj15.github.io/portfolio1",
     "education":[
       {
-        "UniversityName":"Illinois Institute of  Technology",
-        "specialization":"Data Analytics",
+        "UniversityName":"Illinois Institute of  Technology, Chicago",
+        "specialization":"Computer Science and Data Analytics",
         "MonthOfPassing":"May",
         "YearOfPassing":"2021",
         // "Achievements":"Some Achievements"

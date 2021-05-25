@@ -1,18 +1,24 @@
 {
-  "name": "resume",
+  "name": "portfolio",
   "homepage": "https://yashraj15.github.io/portfolio1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/circle-packing": "^0.70.0",
+    "@nivo/core": "^0.70.0",
+    "components-box": "0.0.9",
     "history": "^5.0.0",
+    "nivo": "^0.31.0",
     "react": "^16.8.0",
     "react-bootstrap": "^1.4.0",
+    "react-charts": "^2.0.0-beta.7",
     "react-dom": "^16.8.0",
     "react-ga": "^3.3.0",
     "react-icons": "^4.2.0",
     "react-particles-js": "^3.4.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "2.1.1",
+    "recharts": "^2.0.9",
     "typewriter-effect": "^2.17.0"
   },
   "scripts": {

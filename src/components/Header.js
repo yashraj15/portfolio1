@@ -1,7 +1,12 @@
 import React, { Component } from 'react';
 import Type from "./Type";
-import NavBar from "./NavBar";
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Payments from './Payments';
 
 import { Particle1 }  from './ParticleComponent';
 
@@ -11,30 +16,31 @@ export default class Header extends Component {
     console.log(this.props);
     return (
       <React.Fragment>
-    {/* <Router>
-        <NavBar />
-        <Switch>
-          <Route path = '/' />
-        </Switch>
-      
-      
-      
-      </Router> */}
+  
       
       <header id="home">
+        
          <nav id="nav-wrap">
+         
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
           <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
+                
+            
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">Resume</a></li>
+               <li><a className="smoothscroll" href="#about">About</a></li>              
+               <li><a className="smoothscroll" href="#resume">Resume</a></li>
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+
+                {/* <li><Link to="/payments">Payments</Link></li> */}
             </ul>
+           
          </nav>
-        <Router>
+       
+
+        
         <Particle1 />
          <div className="row banner">
          
@@ -66,7 +72,7 @@ export default class Header extends Component {
             
          </div>
 
-         </Router>
+
          
 
          <p className="scrolldown">

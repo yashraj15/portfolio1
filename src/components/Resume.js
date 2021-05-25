@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { MyResponsiveCirclePackingCanvas } from './CircleChart';
+import Charts from './Charts';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -72,7 +74,7 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				{/* <div className="bars">
 
    				   <ul className="skills">
                 {
@@ -88,7 +90,9 @@ export default  class Resume extends Component {
 
    					</ul>
 
-   				</div>
+   				</div> */}
+           <Charts />  
+           <MyResponsiveCirclePackingCanvas />
 
    			</div>
 

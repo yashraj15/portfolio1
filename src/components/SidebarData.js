@@ -7,31 +7,31 @@ import React, {useState} from "react";
 export const SidebarData = [
     {
         title: 'Home',
-        path: '/home',
+        path: '#home',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
         title: 'About',
-        path: '/about',
+        path: '#about',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
         title: 'Resume',
-        path: '/resume',
+        path: '#resume',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
         title: 'Works',
-        path: '/works',
+        path: '#works',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
     {
         title: 'Testimonials',
-        path: '/testimonials',
+        path: '#testimonials',
         icon: <AiIcons.AiFillHome/>,
         cName: 'nav-text'
     },
